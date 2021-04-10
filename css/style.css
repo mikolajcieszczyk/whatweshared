@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Spartan:wght@300;400;700&display=swap");
+@media (min-width: 767px) {
+  .header__logo span {
+    font-size: 22px !important;
+    line-height: 22px !important; }
+
+  .header__yellow-square span {
+    font-size: 33px !important; }
+
+  main .info-section h1 {
+    font-size: 40px !important;
+    line-height: 54px !important; }
+  main .main-square-first p {
+    font-size: 20px !important;
+    line-height: 40px !important; }
+  main .main-square-second p {
+    font-size: 13px !important;
+    line-height: 19px !important; }
+  main .creators p {
+    font-size: 12px !important;
+    line-height: 22px !important; } }
+@media (min-width: 992px) {
+  header .header__logo span {
+    font-size: 36px !important;
+    line-height: 30px !important; }
+  header .header__yellow-square span {
+    font-size: 56px !important; }
+  header nav {
+    font-size: 16px !important; }
+  header .header__social {
+    font-size: 11px !important;
+    line-height: 14px; }
+
+  main .info-section h1 {
+    font-size: 60px !important;
+    line-height: 56px !important; }
+  main .main-square-first p {
+    font-size: 24px !important;
+    line-height: 48px !important; }
+  main .main-square-second p {
+    font-size: 18px !important;
+    line-height: 40px !important; }
+  main .creators p {
+    font-size: 18px !important;
+    line-height: 29px !important; } }
+body {
+  background-color: #BFAE9F;
+  font-family: "Spartan", sans-serif;
+  font-size: 16px; }
+  body header,
+  body section {
+    min-height: 100vh; }
+  body footer {
+    min-height: 40vh;
+    background-color: #000; }
+
+header {
+  background-color: #000;
+  color: #fff; }
+  header .header__logo span {
+    font-family: "Belleza", sans-serif;
+    font-size: 13px;
+    line-height: 11px; }
+  header .header__logo .header__logo--img {
+    width: 50px;
+    height: 30px; }
+  header .header__social {
+    font-size: 10px; }
+  header .header__yellow-square {
+    height: 200px;
+    border: 2px solid #FFED00; }
+    header .header__yellow-square span {
+      font-family: "Belleza", sans-serif;
+      font-size: 20px;
+      color: #FFED00; }
+  header nav {
+    font-size: 7px;
+    line-height: 30px; }
+
+main .main-square-first p {
+  font-size: 15px;
+  line-height: 30px; }
+main .main-square-second p {
+  font-size: 12px;
+  line-height: 22px; }
+
+.info-section h1 {
+  font-family: "Belleza", sans-serif;
+  color: #FFED00;
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 3%; }
+.info-section p {
+  font-size: 12px; }
+.info-section .inf-sign {
+  width: 50px;
+  height: 40px;
+  margin-left: 2%; }
+.info-section .creators {
+  border-bottom: 2px solid #FFED00;
+  margin-top: 5%; }
+  .info-section .creators p {
+    font-size: 12px;
+    line-height: 22px; }
+
+footer p {
+  color: white;
+  font-size: 16px; }
+  footer p a {
+    color: #FFED00;
+    text-decoration: none;
+    line-height: 40px; }
+    footer p a:active {
+      color: #FFED00;
+      text-decoration: none; }
+    footer p a:hover {
+      color: #FFED00;
+      text-decoration: none; }
+    footer p a:visited {
+      color: #FFED00;
+      text-decoration: none; }
+footer .hr-line {
+  border-bottom: 2px solid #FFED00; }
+
+/*# sourceMappingURL=style.css.map */

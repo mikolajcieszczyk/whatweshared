@@ -1,0 +1,137 @@
+@import "typography";
+@import "rwd";
+
+body {
+  background-color: $grey;
+  font-family: $spartan;
+  font-size: 16px;
+
+  header,
+  section {
+    min-height: 100vh;
+  }
+
+  footer {
+    min-height: 40vh;
+    background-color: #000;
+  }
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+
+  .header__logo {
+    span {
+      font-family: $belleza;
+      font-size: 13px;
+      line-height: 11px;
+    }
+
+    .header__logo--img {
+      width: 50px;
+      height: 30px;
+    }
+  }
+
+  .header__social {
+    font-size: 10px;
+  }
+
+  .header__yellow-square {
+    height: 200px;
+    border: 2px solid $yellow;
+
+    span {
+      font-family: $belleza;
+      font-size: 20px;
+      color: $yellow;
+    }
+  }
+
+  nav {
+    font-size: 7px;
+    line-height: 30px;
+  }
+}
+
+main {
+    .main-square-first {
+        p {
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
+
+    .main-square-second {
+        p {
+            font-size: 12px;
+            line-height: 22px;
+        }
+    }
+}
+
+.info-section {
+  h1 {
+    font-family: $belleza;
+    color: $yellow;
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 3%;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .inf-sign {
+    width: 50px;
+    height: 40px;
+    margin-left: 2%;
+  }
+
+  .creators {
+    border-bottom: 2px solid $yellow;
+    margin-top: 5%;
+
+    p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+  }
+}
+
+footer {
+  p {
+    color: white;
+    font-size: 16px;
+
+    a {
+      color: $yellow;
+      text-decoration: none;
+      line-height: 40px;
+
+
+      &:active {
+        color: $yellow;
+        text-decoration: none;
+      }
+
+      &:hover {
+        color: $yellow;
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: $yellow;
+        text-decoration: none;
+      }
+    }
+
+    
+  }
+
+  .hr-line {
+        border-bottom: 2px solid $yellow;
+    }
+}
