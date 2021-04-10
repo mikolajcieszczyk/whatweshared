@@ -1,12 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Belleza&family=Spartan:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap");
 @media (min-width: 767px) {
   .header__logo span {
     font-size: 22px !important;
     line-height: 22px !important; }
 
+  .header__social {
+    font-size: 10px !important;
+    line-height: 8px !important; }
+
   .header__yellow-square span {
     font-size: 33px !important; }
 
+  main .inf-sign {
+    width: 70px !important;
+    height: 69px !important;
+    margin-left: 2%; }
   main .info-section h1 {
     font-size: 40px !important;
     line-height: 54px !important; }
@@ -17,12 +26,15 @@
     font-size: 13px !important;
     line-height: 19px !important; }
   main .creators p {
-    font-size: 12px !important;
-    line-height: 22px !important; } }
+    font-size: 13px !important;
+    line-height: 19px !important; } }
 @media (min-width: 992px) {
   header .header__logo span {
     font-size: 36px !important;
     line-height: 30px !important; }
+  header .header__social {
+    font-size: 11px !important;
+    line-height: 14px !important; }
   header .header__yellow-square span {
     font-size: 56px !important; }
   header nav {
@@ -31,9 +43,19 @@
     font-size: 11px !important;
     line-height: 14px; }
 
+  main .square__title1,
+  main .square__title2 {
+    font-size: 60px !important;
+    line-height: 54px !important; }
+  main .square__title2 {
+    line-height: 56px !important; }
   main .info-section h1 {
     font-size: 60px !important;
     line-height: 56px !important; }
+  main .info-section .inf-sign {
+    width: 122px !important;
+    height: 122px !important;
+    margin-left: 2% !important; }
   main .main-square-first p {
     font-size: 24px !important;
     line-height: 48px !important; }
@@ -53,6 +75,31 @@ body {
   body footer {
     min-height: 40vh;
     background-color: #000; }
+  body .card {
+    height: 450px; }
+  body .first-card,
+  body .second-card,
+  body .third-card,
+  body .fourth-card {
+    background-repeat: no-repeat;
+    background-size: 200px 180px;
+    background-position: 80% 80%; }
+  body .first-card {
+    background-image: url(../assets/img/square-bg1.png);
+    background-color: #805d5d; }
+  body .second-card {
+    background-image: url(../assets/img/square-bg2.JPG);
+    background-color: #88754f; }
+  body .third-card {
+    background-image: url(../assets/img/square-bg3.JPG);
+    background-color: #e1d5bd; }
+  body .fourth-card {
+    background-image: url(../assets/img/square-bg4.png);
+    background-color: #405952; }
+  body .card-text {
+    font-family: "Belleza", sans-serif;
+    font-size: 35px;
+    line-height: 48px; }
 
 header {
   background-color: #000;
@@ -65,10 +112,11 @@ header {
     width: 50px;
     height: 30px; }
   header .header__social {
-    font-size: 10px; }
+    font-size: 8px;
+    line-height: 4px; }
   header .header__yellow-square {
     height: 200px;
-    border: 2px solid #FFED00; }
+    border: 3px solid #FFED00; }
     header .header__yellow-square span {
       font-family: "Belleza", sans-serif;
       font-size: 20px;
@@ -77,12 +125,28 @@ header {
     font-size: 7px;
     line-height: 30px; }
 
+main .film-room-square {
+  border: 3px solid #FFED00; }
+  main .film-room-square .square__title1,
+  main .film-room-square .square__title2 {
+    color: #FFED00;
+    font-family: "Belleza", sans-serif;
+    margin-left: 5%;
+    font-size: 30px;
+    line-height: 30px; }
+main .main-square-first h1 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFED00;
+  padding: 2%; }
 main .main-square-first p {
   font-size: 15px;
-  line-height: 30px; }
+  line-height: 30px;
+  font-weight: 800; }
 main .main-square-second p {
   font-size: 12px;
-  line-height: 22px; }
+  line-height: 22px;
+  font-weight: 600; }
 
 .info-section h1 {
   font-family: "Belleza", sans-serif;
@@ -93,15 +157,17 @@ main .main-square-second p {
 .info-section p {
   font-size: 12px; }
 .info-section .inf-sign {
-  width: 50px;
-  height: 40px;
+  width: 66px;
+  height: 66px;
   margin-left: 2%; }
 .info-section .creators {
-  border-bottom: 2px solid #FFED00;
+  border-bottom: 3px solid #FFED00;
   margin-top: 5%; }
   .info-section .creators p {
     font-size: 12px;
     line-height: 22px; }
+    .info-section .creators p span {
+      font-weight: 800; }
 
 footer p {
   color: white;
@@ -120,6 +186,6 @@ footer p {
       color: #FFED00;
       text-decoration: none; }
 footer .hr-line {
-  border-bottom: 2px solid #FFED00; }
+  border-bottom: 3px solid #FFED00; }
 
 /*# sourceMappingURL=style.css.map */

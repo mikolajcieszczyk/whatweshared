@@ -15,6 +15,46 @@ body {
     min-height: 40vh;
     background-color: #000;
   }
+
+  .card {
+    height: 450px;
+    // width: 300px;
+  }
+
+  .first-card,
+  .second-card,
+  .third-card,
+  .fourth-card {
+    background-repeat: no-repeat;
+    background-size: 200px 180px;
+    background-position: 80% 80%;
+  }
+
+  .first-card {
+    background-image: url(../assets/img/square-bg1.png);
+    background-color: #805d5d;
+  }
+
+  .second-card {
+    background-image: url(../assets/img/square-bg2.JPG);
+    background-color: #88754f;
+  }
+
+  .third-card {
+    background-image: url(../assets/img/square-bg3.JPG);
+    background-color: #e1d5bd;
+  }
+
+  .fourth-card {
+    background-image: url(../assets/img/square-bg4.png);
+    background-color: #405952;
+  }
+
+  .card-text {
+    font-family: $belleza;
+    font-size: 35px;
+    line-height: 48px;
+  }
 }
 
 header {
@@ -35,12 +75,13 @@ header {
   }
 
   .header__social {
-    font-size: 10px;
+    font-size: 8px;
+    line-height: 4px;
   }
 
   .header__yellow-square {
     height: 200px;
-    border: 2px solid $yellow;
+    border: 3px solid $yellow;
 
     span {
       font-family: $belleza;
@@ -56,19 +97,45 @@ header {
 }
 
 main {
-    .main-square-first {
-        p {
-            font-size: 15px;
-            line-height: 30px;
-        }
+  .film-room-square {
+    border: 3px solid $yellow;
+
+    .square__title1,
+    .square__title2 {
+      color: $yellow;
+      font-family: $belleza;
+      margin-left: 5%;
+      font-size: 30px;
+      line-height: 30px;
     }
 
-    .main-square-second {
-        p {
-            font-size: 12px;
-            line-height: 22px;
-        }
+    // .square__title2 {
+    //   margin-left: 8%;
+    // }
+  }
+
+  .main-square-first {
+    h1 {
+      font-size: 30px;
+      line-height: 30px;
+      color: $yellow;
+      padding: 2%;
     }
+
+    p {
+      font-size: 15px;
+      line-height: 30px;
+      font-weight: $fw-extra-bold;
+    }
+  }
+
+  .main-square-second {
+    p {
+      font-size: 12px;
+      line-height: 22px;
+      font-weight: 600;
+    }
+  }
 }
 
 .info-section {
@@ -85,18 +152,22 @@ main {
   }
 
   .inf-sign {
-    width: 50px;
-    height: 40px;
+    width: 66px;
+    height: 66px;
     margin-left: 2%;
   }
 
   .creators {
-    border-bottom: 2px solid $yellow;
+    border-bottom: 3px solid $yellow;
     margin-top: 5%;
 
     p {
-        font-size: 12px;
-        line-height: 22px;
+      font-size: 12px;
+      line-height: 22px;
+
+      span {
+        font-weight: 800;
+      }
     }
   }
 }
@@ -110,7 +181,6 @@ footer {
       color: $yellow;
       text-decoration: none;
       line-height: 40px;
-
 
       &:active {
         color: $yellow;
@@ -127,11 +197,9 @@ footer {
         text-decoration: none;
       }
     }
-
-    
   }
 
   .hr-line {
-        border-bottom: 2px solid $yellow;
-    }
+    border-bottom: 3px solid $yellow;
+  }
 }
