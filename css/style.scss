@@ -18,7 +18,15 @@ body {
 
   .card {
     height: 450px;
-    // width: 300px;
+    cursor: pointer;
+
+    &:hover {
+      background-size: cover;
+
+      .card-text {
+        color: $yellow;
+      }
+    }
   }
 
   .first-card,
@@ -38,6 +46,7 @@ body {
   .second-card {
     background-image: url(../assets/img/square-bg2.JPG);
     background-color: #88754f;
+    cursor: not-allowed;
   }
 
   .third-card {
@@ -48,6 +57,7 @@ body {
   .fourth-card {
     background-image: url(../assets/img/square-bg4.png);
     background-color: #405952;
+    cursor: not-allowed;
   }
 
   .card-text {

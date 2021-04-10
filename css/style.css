@@ -76,7 +76,12 @@ body {
     min-height: 40vh;
     background-color: #000; }
   body .card {
-    height: 450px; }
+    height: 450px;
+    cursor: pointer; }
+    body .card:hover {
+      background-size: cover; }
+      body .card:hover .card-text {
+        color: #FFED00; }
   body .first-card,
   body .second-card,
   body .third-card,
@@ -89,13 +94,15 @@ body {
     background-color: #805d5d; }
   body .second-card {
     background-image: url(../assets/img/square-bg2.JPG);
-    background-color: #88754f; }
+    background-color: #88754f;
+    cursor: not-allowed; }
   body .third-card {
     background-image: url(../assets/img/square-bg3.JPG);
     background-color: #e1d5bd; }
   body .fourth-card {
     background-image: url(../assets/img/square-bg4.png);
-    background-color: #405952; }
+    background-color: #405952;
+    cursor: not-allowed; }
   body .card-text {
     font-family: "Belleza", sans-serif;
     font-size: 35px;
